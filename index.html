@@ -1,31 +1,142 @@
 <!DOCTYPE html>
+
 <head>
     <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <title>Trivia</title>
+
 <body>
     <h1>Bienvenido a la trivia Quizzitch</h1>
     <h5>Aquí Ud. elegirá un tema planteado, para responder 5 preguntas de ese tema.</h5>
     <h3>Las reglas de la trivia son:</h3>
     <ol>
-      <li>Responder con sinceridad</li>
-      <li>Estar atento a tus respuestas</li>
-      <li>NO usar ayuda externa</li>
+        <li>Responder con sinceridad</li>
+        <li>Estar atento a tus respuestas</li>
+        <li>NO usar ayuda externa</li>
     </ol>
     <form>
         <label>
-          <h3>Ingrese su nombre</h3>
-          <input type="text" placeholder="Ingrese su nombre" required>
+            <h3>Ingrese su nombre</h3>
+            <input type="text" placeholder="Ingrese su nombre" required>
         </label>
         <label>
-          <h3>Seleccione el tema</h3>
-          <button id="button1" type="button">Minecraft</button>
+            <h3>Seleccione el tema</h3>
+            <button id="button1" type="button">Minecraft</button>
         </label>
         <label>
-          <button id="button2" type="button">Demon Slayer</button>
+            <button id="button2" type="button"><a href="#slayer">Demon Slayer</a></button>
         </label>
     </form>
-    <hr></hr>
-    <button id="button3" type="button">Siguiente</button>
+    <hr>
+    </hr>
+    <div id="hidden1">
+        <div class="div-father">
+            <h1 id="minecraft">Minecraft - Pregunta 1</h1>
+            <h4>¿Cuál es el mejor encantamiento para una espada de diamante?</h4>
+            <div>
+                <h5>Opción 1</h5>
+                <button id="button4" type="button">Filo III</button>
+            </div>
+            <div>
+                <h5>Opción 2</h5>
+                <button id="button5" type="button">Filo IV</button>
+            </div>
+            <div>
+                <h5>Opción 3</h5>
+                <button id="button6" type="button">Filo V</button>
+            </div>
+        </div>
+        <hr>
+        </hr>
+        <div class="div-father">
+            <h1>Minecraft - Pregunta 2</h1>
+            <h4>¿En qué modo de Minecraft te dan una isla para construir?</h4>
+            <div>
+                <h5>Opción 1</h5>
+                <button id="button8" type="button">Skyblock</button>
+            </div>
+            <div>
+                <h5>Opción 2</h5>
+                <button id="button9" type="button">Creativo</button>
+            </div>
+            <div>
+                <h5>Opción 3</h5>
+                <button id="button10" type="button">Survival</button>
+            </div>
+        </div>
+        <hr>
+        </hr>
+        <div class="div-father">
+            <h1>Minecraft - Pregunta 3</h1>
+            <h4>¿Cuál es un servidor premium?</h4>
+            <div>
+                <h5>Opción 1</h5>
+                <button id="button12" type="button">Hycraft</button>
+            </div>
+            <div>
+                <h5>Opción 2</h5>
+                <button id="button13" type="button">Hypixel</button>
+            </div>
+            <div>
+                <h5>Opción 3</h5>
+                <button id="button14" type="button">UniversoCraft</button>
+            </div>
+        </div>
+        <hr>
+        </hr>
+        <button id="button15"><a href="#final">Siguiente</a></button>
+    </div>
+    <div id="hidden2">
+        <div class="div-father">
+            <h1>Demon Slayer - Pregunta 1</h1>
+            <h4>¿Qué luna se murió en la montaña Natagumo?</h4>
+            <div>
+                <h5>Opción 1</h5>
+                <button id="button16" type="button">Tercera Luna Creciente</button>
+            </div>
+            <div>
+                <h5>Opción 2</h5>
+                <button id="button17" type="button">Quinta Luna Menguante</button>
+            </div>
+            <div>
+                <h5>Opción 3</h5>
+                <button id="button18" type="button">Primera Luna Menguante</button>
+            </div>
+        </div>
+        <hr />
+        <div class="div-father">
+            <h1>Demon Slayer - Pregunta 2</h1>
+            <h4>¿Cuál es el líder de los demonios?</h4>
+            <div>
+                <h5>Opción 1</h5>
+                <button id="button19" type="button">Muzan Kibutzuji</button>
+            </div>
+            <div>
+                <h5>Opción 2</h5>
+                <button id="button20" type="button">Yushiro Tamano</button>
+            </div>
+            <div>
+                <h5>Opción 3</h5>
+                <button id="button21" type="button">Tamayo Kunado</button>
+            </div>
+        </div>
+        <hr />
+        <div class="div-father">
+            <h1>Demon Slayer - Pregunta 3</h1>
+            <h4>¿Quién entrenó a Tanjiro?</h4>
+            <div>
+                <h5>Opción 1</h5>
+                <button id="button22" type="button">Urokodaki Sakonji</button>
+            </div>
+            <div>
+                <h5>Opción 2</h5>
+                <button id="button23" type="button">Jigoro Kuwajima</button>
+            </div>
+            <div>
+                <h5>Opción 3</h5>
+                <button id="button24" type="button">Yoriichi Tsugikuni</button>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
