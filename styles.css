@@ -46,3 +46,9 @@ a {
 a:hover {
     color: brown;
 }
+#resultsOfMinecraft {
+    display: none;
+}
+#resultsOfDemonSlayer {
+    display: none;
+}
