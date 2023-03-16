@@ -7,7 +7,7 @@
 
 <body>
     <h1>Bienvenido a la trivia Quizzitch</h1>
-    <h5>Aquí Ud. elegirá un tema planteado, para responder 5 preguntas de ese tema.</h5>
+    <h5>Aquí Ud. elegirá un tema planteado, para responder 3 preguntas de ese tema.</h5>
     <h3>Las reglas de la trivia son:</h3>
     <ol>
         <li>Responder con sinceridad</li>
@@ -17,16 +17,18 @@
     <form>
         <label>
             <h3>Ingrese su nombre</h3>
-            <input id="user" type="text" placeholder="Ingrese su nombre" required>
-        </label>
-        <label>
-            <h3>Seleccione el tema</h3>
-            <button id="button1" type="button">Minecraft</button>
-        </label>
-        <label>
-            <button id="button2" type="button"><a href="#slayer">Demon Slayer</a></button>
+            <input id="user" type="text" placeholder="Ingrese su nombre" required />
         </label>
     </form>
+    <div>
+        <label>
+            <h3>Seleccione el tema</h3>
+            <button id="button1" type="button" disabled>Minecraft</button>
+        </label>
+        <label>
+            <button id="button2" type="button" disabled>Demon Slayer</a></button>
+        </label>
+    </div>
     <hr>
     </hr>
     <div id="hidden1">
@@ -136,7 +138,7 @@
             </div>
             <div>
                 <h5>Opción 2</h5>
-                <button id="button23" type="button">Jigoro Kuwajima</button>
+                <button id="button23" type="button">Jigoro Kuwajimas</button>
             </div>
             <div>
                 <h5>Opción 3</h5>

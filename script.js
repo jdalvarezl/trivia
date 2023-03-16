@@ -26,13 +26,20 @@ const hiddendiv1 = document.getElementById('hidden1');
 const hiddendiv2 = document.getElementById('hidden2');
 const hiddendiv3 = document.getElementById('hidden3');
 const hiddendiv4 = document.getElementById('hidden4');
-const user = document.getElementById('user');
 const resultsOfMinecraft = [];
 const resultsOfDemonSlayer = [];
 hiddendiv1.style.display = "none"
 hiddendiv2.style.display = "none"
 hiddendiv3.style.display = "none"
 hiddendiv4.style.display = "none"
+const user = document.getElementById('user');
+const userName = document.getElementById('user').length;
+user.addEventListener('change', (e) => {
+    if (e.target.value.length >= 3) {
+        firstButton.disabled = false
+        secondButton.disabled = false
+    }
+})
 firstButton.addEventListener('click', () => {
     secondButton.style.border = "none";
     firstButton.style.border = "5px solid black"
