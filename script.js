@@ -33,11 +33,22 @@ hiddendiv2.style.display = "none"
 hiddendiv3.style.display = "none"
 hiddendiv4.style.display = "none"
 const user = document.getElementById('user');
-const userName = document.getElementById('user').length;
+let userName = '';
+
 user.addEventListener('change', (e) => {
     if (e.target.value.length >= 3) {
         firstButton.disabled = false
         secondButton.disabled = false
+        firstButton.style.background = "#ffcccc";
+        firstButton.style.color = "black";
+        secondButton.style.background = "#ffcccc";
+        secondButton.style.color = "black";
+        userName = e.target.value;
+        console.log(userName)
+        let importantH1 = "Gracias " + userName + " por responder la trivia Quizzitch"
+        document.getElementById('important-h1').innerHTML = importantH1;
+        let importantH2 = "Gracias " + userName + " por responder la trivia Quizzitch"
+        document.getElementById('important-h2').innerHTML = importantH2;
     }
 })
 firstButton.addEventListener('click', () => {
