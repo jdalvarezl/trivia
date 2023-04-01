@@ -26,6 +26,9 @@ const hiddendiv1 = document.getElementById('hidden1');
 const hiddendiv2 = document.getElementById('hidden2');
 const hiddendiv3 = document.getElementById('hidden3');
 const hiddendiv4 = document.getElementById('hidden4');
+const corrrectAnswersOfDemonSlayer = ["Quinta Luna Menguante", "Muzan kibutsuji", "Urokodaki Sakonji"]
+const corrrectAnswersOfMinecraft = ["Filo V", "Skyblock", "Hypixel"]
+
 const resultsOfMinecraft = [];
 const resultsOfDemonSlayer = [];
 hiddendiv1.style.display = "none"
@@ -191,4 +194,20 @@ oneButton.addEventListener('click', () => {
 twoButton.addEventListener('click', () => {
     hiddendiv3.style.display = "none"
     hiddendiv4.style.display = "block"
+})
+twentyfiveButton.addEventListener('click', () => {
+    if (resultsOfDemonSlayer.length = 3) {
+        document.getElementById('answer2').style.display = "block"
+        document.getElementById('correctAnswersOfDemonSlayer').style.display = "block"
+        document.getElementById('correctAnswersOfDemonSlayer').innerHTML = corrrectAnswersOfDemonSlayer
+    }
+    document.getElementById('answer3').style.display = "block"
+})
+fifthiethButton.addEventListener('click', () => {
+    if (resultsOfMinecraft.length = 3) {
+        document.getElementById('answer1').style.display = "block"
+        document.getElementById('correctAsnwersOfMinecraft').style.display = "block"
+        document.getElementById('correctAsnwersOfMinecraft').innerHTML = corrrectAnswersOfMinecraft
+        document.getElementById('answer4').style.display = "block"
+    }
 })
