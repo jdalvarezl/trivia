@@ -18,6 +18,12 @@ Haremos la vista que indica que ha finalizado la trivia, donde se colocará un m
 Día 4:
 Darle funcionalidad al botón para mostrar el puntaje obtenido
 
+Día 5:
+Habilitar scroll automático cuando se haga click en cada botón "siguiente" para que el usuario pueda ver que sigue inmediatamente.
+
+Día 6:
+Agregar un botón para volver a empezar una nueva trivia.
+
 
 Nota:
 TODAS LAS VISTAS deben tener estilos CSS que hagan que la trivia sea divertida y atractiva al usuario.
