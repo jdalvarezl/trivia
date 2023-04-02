@@ -4,6 +4,10 @@ body {
     background: #ccffff;
 }
 
+.question {
+    height: 100vh;
+}
+
 .border {
     border: 5px solid black;
 }
@@ -91,7 +95,6 @@ a:hover {
 #answer3 {
     display: none;
 }
-
-#answer4 {
+#answer4 { 
     display: none;
 }
