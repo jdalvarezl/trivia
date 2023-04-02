@@ -42,9 +42,9 @@ user.addEventListener('change', (e) => {
     if (e.target.value.length >= 3) {
         firstButton.disabled = false
         secondButton.disabled = false
-        firstButton.style.background = "#ffcccc";
+        firstButton.style.backgroundColor = "#ffcccc";
         firstButton.style.color = "black";
-        secondButton.style.background = "#ffcccc";
+        secondButton.style.backgroundColor = "#ffcccc";
         secondButton.style.color = "black";
         userName = e.target.value;
         console.log(userName)
@@ -196,7 +196,7 @@ twoButton.addEventListener('click', () => {
     hiddendiv4.style.display = "block"
 })
 twentyfiveButton.addEventListener('click', () => {
-    if (resultsOfDemonSlayer.length = 3) {
+    if (resultsOfDemonSlayer.length === 3) {
         document.getElementById('answer2').style.display = "block"
         document.getElementById('correctAnswersOfDemonSlayer').style.display = "block"
         document.getElementById('correctAnswersOfDemonSlayer').innerHTML = corrrectAnswersOfDemonSlayer
@@ -204,10 +204,10 @@ twentyfiveButton.addEventListener('click', () => {
     document.getElementById('answer3').style.display = "block"
 })
 fifthiethButton.addEventListener('click', () => {
-    if (resultsOfMinecraft.length = 3) {
+    if (resultsOfMinecraft.length === 3) {
         document.getElementById('answer1').style.display = "block"
         document.getElementById('correctAsnwersOfMinecraft').style.display = "block"
         document.getElementById('correctAsnwersOfMinecraft').innerHTML = corrrectAnswersOfMinecraft
-        document.getElementById('answer4').style.display = "block"
     }
+    document.getElementById('answer4').style.display = "block"
 })

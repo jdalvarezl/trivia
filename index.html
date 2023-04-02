@@ -23,10 +23,10 @@
     <div>
         <label>
             <h3>Seleccione el tema</h3>
-            <button id="button1" type="button" disabled>Minecraft</button>
+            <a href="#hidden1"><button id="button1" type="button" disabled>Minecraft</button></a>
         </label>
         <label>
-            <button id="button2" type="button" disabled>Demon Slayer</a></button>
+            <a href="#hidden2"><button id="button2" type="button" disabled>Demon Slayer</button></a>
         </label>
     </div>
     <hr>
@@ -34,36 +34,38 @@
     <div id="hidden1">
         <div class="div-father">
             <h1 id="minecraft">Minecraft - Pregunta 1</h1>
-            <h4>¿Cuál es el mejor encantamiento para una espada de diamante?</h4>
+            <h4>¿Cuál es el mejor encantamiento para una espada de netherite?</h4>
             <div>
                 <h5>Opción 1</h5>
-                <button id="button4" type="button">Filo III</button>
+                <a href="#minecraft2"><button id="button4" type="button">Filo III</button></a>
             </div>
             <div>
                 <h5>Opción 2</h5>
-                <button id="button5" type="button">Filo IV</button>
+                <a href="#minecraft2"><button id="button5" type="button">Filo IV</button></a>
             </div>
             <div>
                 <h5>Opción 3</h5>
-                <button id="button6" type="button">Filo V</button>
+                <a href="#minecraft2"><button id="button6" type="button">Filo V</button></a>
             </div>
         </div>
         <hr>
         </hr>
         <div class="div-father">
-            <h1>Minecraft - Pregunta 2</h1>
-            <h4>¿En qué modo de Minecraft te dan una isla para construir?</h4>
-            <div>
-                <h5>Opción 1</h5>
-                <button id="button8" type="button">Skyblock</button>
-            </div>
-            <div>
-                <h5>Opción 2</h5>
-                <button id="button9" type="button">Creativo</button>
-            </div>
-            <div>
-                <h5>Opción 3</h5>
-                <button id="button10" type="button">Survival</button>
+            <div id="minecraft2">
+                <h1>Minecraft - Pregunta 2</h1>
+                <h4>¿En qué modo de Minecraft te dan una isla para construir?</h4>
+                <div>
+                    <h5>Opción 1</h5>
+                    <button id="button8" type="button">Skyblock</button>
+                </div>
+                <div>
+                    <h5>Opción 2</h5>
+                    <button id="button9" type="button">Creativo</button>
+                </div>
+                <div>
+                    <h5>Opción 3</h5>
+                    <button id="button10" type="button">Survival</button>
+                </div>
             </div>
         </div>
         <hr>
@@ -86,49 +88,53 @@
         </div>
         <hr>
         </hr>
-        <button id="button01">Siguiente</button>
+        <a href="#button15"><button id="button01">Siguiente</button></a>
         <div id="hidden3">
             <h1 id="important-h2">Gracias por responder la trivia Quizzitch</h1>
-            <button id="button15"><a href="#final">Ver respuestas</a></button>
-            <h3 id="answer4">Tus respuestas</h3>
-            <h5 id="resultsOfMinecraft"></h5>
-            <h3 id="answer1">Respuestas correctas</h3>
-            <h5 id="correctAsnwersOfMinecraft"></h5>
+            <a href="#finalAnswer1"><button id="button15">Ver respuestas</button></a>
+            <div id="finalAnswer1">
+                <h3 id="answer4">Tus respuestas</h3>
+                <h5 id="resultsOfMinecraft"></h5>
+                <h3 id="answer1">Respuestas correctas</h3>
+                <h5 id="correctAsnwersOfMinecraft"></h5>
+            </div>
         </div>
     </div>
-    
+
     <div id="hidden2">
         <div class="div-father">
             <h1>Demon Slayer - Pregunta 1</h1>
             <h4>¿Qué luna se murió en la montaña Natagumo?</h4>
             <div>
                 <h5>Opción 1</h5>
-                <button id="button16" type="button">Tercera Luna Creciente</button>
+                <a href="#demon2"><button id="button16" type="button">Tercera Luna Creciente</button></a>
             </div>
             <div>
                 <h5>Opción 2</h5>
-                <button id="button17" type="button">Quinta Luna Menguante</button>
+                <a href="#demon2"><button id="button17" type="button">Quinta Luna Menguante</button></a>
             </div>
             <div>
                 <h5>Opción 3</h5>
-                <button id="button18" type="button">Primera Luna Menguante</button>
+                <a href="#demon2"><button id="button18" type="button">Primera Luna Menguante</button></a>
             </div>
         </div>
         <hr />
         <div class="div-father">
-            <h1>Demon Slayer - Pregunta 2</h1>
-            <h4>¿Cuál es el líder de los demonios?</h4>
-            <div>
-                <h5>Opción 1</h5>
-                <button id="button19" type="button">Muzan Kibutzuji</button>
-            </div>
-            <div>
-                <h5>Opción 2</h5>
-                <button id="button20" type="button">Yushiro Tamano</button>
-            </div>
-            <div>
-                <h5>Opción 3</h5>
-                <button id="button21" type="button">Tamayo Kunado</button>
+            <div id="demon2">
+                <h1>Demon Slayer - Pregunta 2</h1>
+                <h4>¿Cuál es el líder de los demonios?</h4>
+                <div>
+                    <h5>Opción 1</h5>
+                    <button id="button19" type="button">Muzan Kibutzuji</button>
+                </div>
+                <div>
+                    <h5>Opción 2</h5>
+                    <button id="button20" type="button">Yushiro Tamano</button>
+                </div>
+                <div>
+                    <h5>Opción 3</h5>
+                    <button id="button21" type="button">Tamayo Kunado</button>
+                </div>
             </div>
         </div>
         <hr />
@@ -149,14 +155,16 @@
             </div>
         </div>
         <hr />
-        <button id="button02">Siguiente</button>
+        <a href="#hidden4"><button id="button02">Siguiente</button></a>
         <div id="hidden4">
             <h1 id="important-h1">Gracias por responder la trivia Quizzitch</h1>
-            <button id="button25">Ver respuestas</button>
-            <h3 id="answer3">Tus respuestas</h3>
-            <h5 id="resultsOfDemonSlayer"></h5>
-            <h3 id="answer2">Respuestas correctas</h3>
-            <h5 id="correctAnswersOfDemonSlayer"></h5>
+            <a href="#finalAnswer2"><button id="button25">Ver respuestas</button></a>
+            <div id="finalAnswer2">
+                <h3 id="answer3">Tus respuestas</h3>
+                <h5 id="resultsOfDemonSlayer"></h5>
+                <h3 id="answer2">Respuestas correctas</h3>
+                <h5 id="correctAnswersOfDemonSlayer"></h5>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>

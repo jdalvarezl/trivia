@@ -7,15 +7,16 @@ body {
 .border {
     border: 5px solid black;
 }
+
 @media (min-width: 768px) and (max-width: 2048px) {
     button {
         padding: 1%;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ffcccc;
-    color: black;
-    margin-bottom: 3%;
-    border-radius: 5px;
-    border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #ffcccc;
+        color: black;
+        margin-bottom: 3%;
+        border-radius: 5px;
+        border: none;
     }
 }
 
@@ -30,10 +31,12 @@ body {
         border: none;
     }
 }
+
 #button1 {
     background: grey;
     color: white;
 }
+
 #button2 {
     background: grey;
     color: white;
@@ -47,37 +50,48 @@ body {
     width: 100px;
     height: 50px;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
+
 a:hover {
     color: brown;
 }
+
 #resultsOfMinecraft {
     display: none;
 }
+
 #resultsOfDemonSlayer {
     display: none;
 }
+
 #hiddenlabel {
     display: none;
 }
+
 #correctAsnwersOfMinecraft {
     display: none;
 }
+
 #correctAnswersOfDemonSlayer {
     display: none;
 }
+
 #answer1 {
     display: none;
 }
+
 #answer2 {
     display: none;
 }
+
 #answer3 {
     display: none;
 }
-#answer4 { 
+
+#answer4 {
     display: none;
 }
