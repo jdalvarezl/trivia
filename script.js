@@ -223,3 +223,24 @@ twentyfourButton.addEventListener('click', () => {
         document.getElementById('answer4').style.display = "block"
     }
 });
+
+const playAgainButton = document.getElementById('playAgain')
+
+playAgainButton.addEventListener('click', (e) => {
+    window.location.reload();
+    const userValue = document.getElementById('user');
+    userValue.value = ''
+    userName = ''
+    firstButton.disabled = true;
+    secondButton.disabled = true;
+})
+const playAgainButton2 = document.getElementById('playAgain2')
+
+playAgainButton2.addEventListener('click', (e) => {
+    window.location.reload();
+    const userValue = document.getElementById('user');
+    userValue.value = ''
+    userName = ''
+    firstButton.disabled = true;
+    secondButton.disabled = true;
+})
