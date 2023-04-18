@@ -35,8 +35,12 @@ body {
         margin-bottom: 3%;
         border-radius: 5px;
         border: none;
-        width: 150px;
+        width: 30vh;
         height: 50px;
+    }
+    input {
+        width: 30vh;
+        height: 5vh;
     }
 }
 
